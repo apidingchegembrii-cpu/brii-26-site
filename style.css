@@ -64,6 +64,7 @@ h1 {
     margin-bottom: 1.2rem;
     font-size: 2rem;
     letter-spacing: -0.5px;
+    text-align: center;
 }
 
 p {
@@ -72,7 +73,84 @@ p {
     color: #4b5563;
 }
 
-/* 6. List Styling (Services Page) */
+/* 6. Hero & General Section Styles */
+.hero {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+/* 7. Collection Sections Base & Centering */
+.collection {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1.8rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.collection:hover {
+    transform: translateY(-3px);
+}
+
+.collection h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+}
+
+.collection img {
+    max-width: 100%;
+    height: auto;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 1rem 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Specific Colors for Collections --- */
+
+/* Men's Collection: Ocean Blue Theme */
+.mens-collection {
+    background-color: #eff6ff;
+    border-left: 6px solid #2563eb;
+}
+.mens-collection h2 {
+    color: #1d4ed8;
+}
+
+/* Women's Collection: Rose Pink Theme */
+.womens-collection {
+    background-color: #fdf2f8;
+    border-left: 6px solid #ec4899;
+}
+.womens-collection h2 {
+    color: #be185d;
+}
+
+/* Children's Collection: Warm Amber/Golden Theme */
+.childrens-collection {
+    background-color: #fffbeb;
+    border-left: 6px solid #f59e0b;
+}
+.childrens-collection h2 {
+    color: #b45309;
+}
+
+/* 8. Why Us Section */
+.why-us {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 2px dashed #e5e7eb;
+}
+
+.why-us h2 {
+    color: #4338ca;
+    margin-bottom: 0.5rem;
+}
+
+/* 9. List Styling (Services Page) */
 main ul {
     margin-left: 1.5rem;
     margin-bottom: 1.5rem;
@@ -83,13 +161,13 @@ main li {
     font-weight: 600;
     color: #1f2937;
     padding: 0.5rem;
-    background-color: #fdf2f8; /* Soft pink item highlights */
+    background-color: #fdf2f8;
     border-left: 4px solid #ec4899;
     border-radius: 4px;
     list-style-type: none;
 }
 
-/* 7. Footer */
+/* 10. Footer */
 footer {
     background: linear-gradient(90deg, #0f172a 0%, #1e1b4b 100%);
     color: #94a3b8;
