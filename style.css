@@ -1,0 +1,105 @@
+/* 1. Global Reset & Box Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Global Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #2b2b2b;
+    /* Soft colorful background gradient */
+    background: linear-gradient(135deg, #fef9e7 0%, #f0f4ff 100%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* 3. Colorful Navigation & Header */
+header {
+    background: linear-gradient(90deg, #1e1b4b 0%, #4338ca 50%, #6366f1 100%);
+    padding: 1.2rem 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #fef08a; /* Bright golden yellow accent */
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* 4. Main Card Container */
+main {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 2.5rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(99, 102, 241, 0.12);
+    border-top: 6px solid #ec4899; /* Bright pink accent bar */
+    flex: 1;
+}
+
+/* 5. Colorful Typography & Headings */
+h1 {
+    color: #4338ca; /* Deep indigo */
+    margin-bottom: 1.2rem;
+    font-size: 2rem;
+    letter-spacing: -0.5px;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+    color: #4b5563;
+}
+
+/* 6. List Styling (Services Page) */
+main ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+main li {
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    color: #1f2937;
+    padding: 0.5rem;
+    background-color: #fdf2f8; /* Soft pink item highlights */
+    border-left: 4px solid #ec4899;
+    border-radius: 4px;
+    list-style-type: none;
+}
+
+/* 7. Footer */
+footer {
+    background: linear-gradient(90deg, #0f172a 0%, #1e1b4b 100%);
+    color: #94a3b8;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: auto;
+    font-size: 0.95rem;
+}
+
+footer p {
+    color: #cbd5e1;
+    margin: 0;
+}
